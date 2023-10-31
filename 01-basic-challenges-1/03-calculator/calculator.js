@@ -1,3 +1,17 @@
-function calculator() {}
+function calculator(num1, num2, operator) {
+  switch (operator) {
+    case "+":
+      return num1 + num2;
+    case "-":
+      return num1 - num2;
+    case "*":
+      return num1 * num2;
+    case "/":
+      return num1 / num2;
+    default:
+      console.log("Operator not supported");
+      break;
+  }
+}
 
 module.exports = calculator;

@@ -1,5 +1,5 @@
-const reverseString = require('./reverse-string');
+const reverseString = require("./reverse-string");
 
-const result = reverseString('hello world');
+const result = reverseString("hello world");
 
 console.log(result);
